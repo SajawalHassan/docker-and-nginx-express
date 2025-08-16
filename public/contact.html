@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-gray-900 text-gray-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Night Owl - Contact</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900"
+  >
+    <header class="mb-8 text-center">
+      <h1 class="text-4xl font-extrabold tracking-tight text-indigo-400 mb-2">
+        Contact Night Owl
+      </h1>
+      <p class="text-lg text-gray-300">
+        Have questions about owls? Want to share your owl sightings or learn
+        more about these fascinating nocturnal birds? Reach out to us!
+      </p>
+    </header>
+    <main class="w-full max-w-md bg-gray-800 rounded-xl shadow-lg p-8">
+      <section class="mb-6">
+        <h2 class="text-2xl font-semibold text-indigo-300 mb-2">
+          Owl Inquiry Form
+        </h2>
+        <form class="space-y-4">
+          <div>
+            <label for="name" class="block text-gray-300 mb-1">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              class="w-full px-3 py-2 rounded bg-gray-700 text-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+              required
+            />
+          </div>
+          <div>
+            <label for="email" class="block text-gray-300 mb-1">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full px-3 py-2 rounded bg-gray-700 text-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+              required
+            />
+          </div>
+          <div>
+            <label for="message" class="block text-gray-300 mb-1"
+              >Your Owl Question or Story</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              class="w-full px-3 py-2 rounded bg-gray-700 text-gray-100 focus:outline-none focus:ring-2 focus:ring-indigo-400"
+              required
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="w-full bg-indigo-600 hover:bg-indigo-700 text-gray-100 py-2 px-4 rounded transition font-semibold"
+          >
+            Send Message
+          </button>
+        </form>
+      </section>
+      <section class="mb-6">
+        <h2 class="text-xl font-semibold text-indigo-300 mb-2">Quick Links</h2>
+        <div class="flex flex-col space-y-2">
+          <a
+            href="/"
+            class="bg-gray-700 hover:bg-indigo-600 text-gray-100 py-2 px-4 rounded transition"
+            >Home</a
+          >
+          <a
+            href="/about"
+            class="bg-gray-700 hover:bg-indigo-600 text-gray-100 py-2 px-4 rounded transition"
+            >About Owls</a
+          >
+        </div>
+      </section>
+      <section class="mt-8 text-center">
+        <blockquote class="italic text-indigo-200">
+          "Owls are not only wise, but mysterious creatures of the night."
+        </blockquote>
+        <span class="block mt-2 text-gray-400">— Unknown</span>
+      </section>
+    </main>
+    <footer class="mt-8 text-gray-500 text-sm">
+      &copy; 2024 Night Owl. All rights reserved.
+    </footer>
+  </body>
+</html>
