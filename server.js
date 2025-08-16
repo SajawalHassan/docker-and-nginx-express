@@ -11,11 +11,6 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-app.get("/about", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "about.html"));
-  console.log(`\n A Request was served on /about by ${appName}`);
-});
-
 app.get("/contact", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "contact.html"));
   console.log(`\n A Request was served on /contact by ${appName}`);
